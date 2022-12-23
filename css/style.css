@@ -1,0 +1,153 @@
+
+h1{
+    margin-top: 0;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.26rem; /* divide pixel by 16 to get % ,16px=1em, check rem/em too*/
+    color: #66BFBF;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+.color-music{
+    color: #11999E;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    position:relative;
+    padding-top: 100px;
+    /*opacity: .6;*/
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    position:relative;
+    margin-top: 70px;
+    height: 100px;
+    padding: 50px 0 20px;
+    
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+a{
+    word-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.footer-link{
+   text-decoration: none; 
+   color: #11999E;
+  
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.mountain-image{
+    width: 40%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 730px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 673px;
+    top: 40px;
+   
+}
+
+p{
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.dragon-class{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.music-class{
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+hr{
+    width: 6%;
+    border-style: dotted none none;
+    border-color: gray;
+    border-width: 6px; 
+    margin: 100px auto;  
+}
+
+.btn{
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    font-family: "Montserrat";
+    color: #fafafa;
+    font-size: 18px;
+    background: #34b1c7;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #074345;
+    text-decoration: none;
+  }
+
+/* clear is the ant-float, specify the clear in the paragraph */
